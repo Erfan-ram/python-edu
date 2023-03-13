@@ -46,4 +46,5 @@ Style = {
     'Strikethrough': '\033[9m',
     'Not italic': '\033[23m',
     'Not underline': '\033[24m',
-    'Not strikethrough': '\033[29m', }
+    'Not strikethrough': '\033[29m',
+}
