@@ -15,7 +15,7 @@ or
 >>>> print(bk['Yellow' + "this is a Red text")
 """
 
-RESET = '\033[22m',
+RESET = '\033[0m'
 
 Color = {
     'Red': '\033[31m',
