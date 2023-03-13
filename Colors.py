@@ -1,5 +1,6 @@
 RESET = '\033[22m',
-colors = {
+
+Color = {
     'Red': '\033[31m',
     'Green': '\033[32m',
     'Yellow': '\033[33m',
@@ -16,15 +17,6 @@ colors = {
     'Bright Purple': '\033[95m',
     'Light Blueish-Cyan': '\033[96m',
     'White': '\033[97m',
-    'No Color': '\033[0m',
-    'Bold': '\033[1m',
-    'Dim/Faint': '\033[2m',
-    'Italic': '\033[3m',
-    'Underline': '\033[4m',
-    'Strikethrough': '\033[9m',
-    'Not italic': '\033[23m',
-    'Not underline': '\033[24m',
-    'Not strikethrough': '\033[29m',
 }
 
 Background = {
@@ -45,3 +37,13 @@ Background = {
     'Blueish-Cyan': '\033[106m',
     'White': '\033[107m',
 }
+
+Style = {
+    'Bold': '\033[1m',
+    'Dim/Faint': '\033[2m',
+    'Italic': '\033[3m',
+    'Underline': '\033[4m',
+    'Strikethrough': '\033[9m',
+    'Not italic': '\033[23m',
+    'Not underline': '\033[24m',
+    'Not strikethrough': '\033[29m', }
