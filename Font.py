@@ -2,8 +2,8 @@
 This is a short Font module i myself developed it to change
 and access text colors as simple as possible
 
-It contains 3 list : Color Background Style
-and a RESET to reset your applied options
+* It contains 3 list : Color Background Style
+* RESET to reset your applied options
 
 to use it : 
 >>>> from Font import *
@@ -12,8 +12,10 @@ to use it :
 or
 
 >>>> from Font import Background as bk
->>>> print(bk['Yellow' + "this is a Red text")
+>>>> print(bk['Yellow'] + "this is a Red text")
 """
+
+from random import randint
 
 RESET = '\033[0m'
 
@@ -65,3 +67,13 @@ Style = {
     'Not underline': '\033[24m',
     'Not strikethrough': '\033[29m',
 }
+
+
+def Random_color() -> str:
+    """
+    Return code colors.
+    Colors range from 0 to 263
+    """
+    color_code = f"\033[38;5;{randint(0,263)}m"
+
+    return color_code
