@@ -12,7 +12,7 @@ to use it :
 or
 
 >>>> from Font import Background as bk
->>>> print(bk['Yellow' + "this is a Red text")
+>>>> print(bk['Yellow'] + "this is a text with yellow Background")
 """
 
 RESET = '\033[22m',
