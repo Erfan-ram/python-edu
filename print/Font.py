@@ -5,7 +5,7 @@ and access text colors as simple as possible
 * It contains 3 list : Color Background Style
 * RESET to reset your applied options
 
-to use it : 
+Usage : 
 >>>> from Font import *
 >>>> print(f " {Color['Red']} this is a Red text")
 
